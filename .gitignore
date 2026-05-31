@@ -1,0 +1,26 @@
+# Python
+_pycache_/
+*.pyc
+venv/
+.env
+
+# Docker volumes/data
+volumes/
+data/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets - NEVER commit these
+*.key
+*.pem
+credentials.json
+secrets.yaml
+.env.local
