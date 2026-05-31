@@ -1,55 +1,73 @@
-# Kafka Learning & Practice
+# Apache Kafka Learning Journey
 
-Hands-on Apache Kafka practice covering deployment, client development, 
-and operations using Docker and Kubernetes.
+> Hands-on exploration of Apache Kafka — from fundamentals
+> to production patterns. Built using Docker, Kubernetes,
+> and Python.
 
-##  Skills Demonstrated
+## 🎯 What I'm Learning
 
-- *Kafka Architecture*: Topics, partitions, consumer groups, replication
-- *Deployment*: Docker Compose, Kubernetes (Strimzi Operator)
-- *Client Development*: Python producers/consumers
-- *Operations*: Broker failure recovery, consumer lag debugging
-- *Monitoring*: Prometheus + Grafana integration
+- **Architecture:** Topics, partitions, consumer groups, replication
+- **Deployment:** Docker Compose, Kubernetes (Strimzi)
+- **Clients:** Python producers and consumers
+- **Operations:** Broker failure recovery, lag debugging
+- **Monitoring:** Prometheus + Grafana integration
 
-##  Contents
+## 🚀 Quick Start
 
-- docker-compose.yml - Single-node Kafka cluster with Zookeeper and Kafka UI
-- producer.py - Python Kafka producer
-- consumer.py - Python Kafka consumer
+### Prerequisites
 
-##  Quick Start
+- Linux/macOS
+- Docker & Docker Compose
+- Python 3.8+
 
-\\\`bash
+### Run Locally
+
+```bash
 # Start Kafka cluster
 docker compose up -d
 
 # Access Kafka UI
-# http://localhost:8080
+open http://localhost:8080
 
 # Run producer
 python3 producer.py
 
 # Run consumer
 python3 consumer.py
-\\\`
+```
 
-##  Tech Stack
+## 📂 Repository Structure
 
-- Apache Kafka (Confluent Platform 7.5.0)
-- Docker / Docker Compose
-- Python (kafka-python)
+```
+kafka-learning/
+├── docker-compose.yml    # Single-node Kafka setup
+├── producer.py           # Python Kafka producer
+├── consumer.py           # Python Kafka consumer
+└── README.md             # This file
+```
 
-##  Learning Journey
+## 🔧 Tech Stack
 
-This repository documents my hands-on journey mastering Apache Kafka,
-building from fundamentals to production-grade patterns.
+| Component | Version |
+|-----------|---------|
+| Apache Kafka | 7.5.0 |
+| Zookeeper | 7.5.0 |
+| Kafka UI | latest |
+| Python | 3.8+ |
 
-##  Author
+## 📚 Learning Path
 
-*Shafique Khan* 
-Application Support Lead | DevOps & Platform Engineering 
-shafigk1511@gmail.com
+- [x] Basic Kafka deployment with Docker
+- [x] Python producer/consumer
+- [ ] Multi-broker cluster
+- [ ] Kubernetes deployment with Strimzi
+- [ ] Production monitoring setup
+- [ ] Schema Registry integration
+- [ ] Kafka Connect
 
-##  License
+## 👤 Author
 
-Educational purposes...
+**Shafique Khan**
+Application Support Lead | Platform Engineering
+📧 shafigk1511@gmail.com
+💼 [LinkedIn](https://linkedin.com/in/shafique-khan-a835551b5)
