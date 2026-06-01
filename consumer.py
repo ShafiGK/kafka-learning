@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 BOOTSTRAP_SERVERS = ['localhost:9092']
 TOPIC_NAME = 'learn-topic'
-CONSUMER_GROUP = 'learn-consumer-group'
+CONSUMER_GROUP = 'python-consumer-group'
 
 def create_consumer():
     """Create a Kafka consumer with manual commit."""
