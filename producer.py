@@ -52,7 +52,7 @@ def main():
         for i in range(10):
             message = {
                 'id': i,
-                'message': f'Hello Kafka {i}',
+                'message': f'Hello Kafka.This is Shafique!. My message number {i}',
                 'timestamp': time.time()
             }
             send_message(producer, TOPIC_NAME, f'key-{i}', message)
